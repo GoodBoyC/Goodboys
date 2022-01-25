@@ -39,7 +39,27 @@ except requests.exceptions.ConnectionError:
 	
 ip = requests.get('https://api.ipify.org').text.strip()
 loc = requests.get('https://ipapi.com/ip_api.php?ip=' + ip, headers={'Referer': 'https://ip-api.com/', 'Content-Type': 'application/json; charset=utf-8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.92 Mobile Safari/537.36'}).json()['country_name'].upper()
-	
+
+"""
+CorrectUsername = "CHINDA"
+CorrectPassword = "Classique"
+
+loop = 'true'
+while (loop == 'true'):
+    username = raw_input("\033[1;96m[☆] \x1b[0;31mTOOL USERNAME BOSS(PAID TOOL) \x1b[1;96m>>>> ")
+    if (username == CorrectUsername):
+    	password = raw_input("\033[1;96m[☆] \x1b[0;31mTOOL PASSWORD BOSS(PAID TOOL) \x1b[1;96m>>>> ")
+        if (password == CorrectPassword):
+            print "Congratulations Paid Users " + username
+            loop = 'false'
+        else:
+            print "yang bener dong"
+            os.system('xdg-open https://wa.me/+2349067338953')
+    else:
+        print "salah sayang!"
+        os.system('xdg-open https://wa.me/+2349067338953')	
+def login():
+	os.system("clear")	
 def linex():
 	os.system('echo  "\n ======================================\n" | lolcat -a -d 2 -s 50')
 def logo():
