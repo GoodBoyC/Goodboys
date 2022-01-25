@@ -63,11 +63,7 @@ def login():
 def linex():
 	os.system('echo  "\n ======================================\n" | lolcat -a -d 2 -s 50')
 def logo():
-	os.system('echo  "\n   ####  #  #  #  ##    #  ##        ## \n
-#     #  #  #  # #   #  # #      # # \n
-#     ####  #  #  #  #  #  #    #### \n
-#     #  #  #  #   # #  #   #  #   # \n
-####  #  #  #  #    ##  ##### #    # \n \n \n    ╔═════════════════════════════╗\n    ║ TOOL NAME: { GOODBOYS }     ║\n    ║ AUTHOR   : MR. CHINDA       ║\n    ║ GITHUB   : github.com/GoodBoyC     \n    ╚═════════════════════════════╝" | lolcat -a -d 2 -s 50')	
+	os.system('echo  "\n   ####  #  #  #  ##    #  ##        ## \n #     #  #  #  # #   #  # #      # # \n #     ####  #  #  #  #  #  #    #### \n #     #  #  #  #   # #  #   #  #   # \n ####  #  #  #  #    ##  ##### #    # \n \n \n    ╔═════════════════════════════╗\n    ║ TOOL NAME: { GOODBOYS }     ║\n    ║ AUTHOR   : MR. CHINDA       ║\n    ║ GITHUB   : github.com/GoodBoyC     \n    ╚═════════════════════════════╝" | lolcat -a -d 2 -s 50')	
 
 def main():
 	os.system("clear")
